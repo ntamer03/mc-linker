@@ -26,6 +26,12 @@ Now download the repository either by using the github download button and extra
 
 Finally go to `win > Search cmd` and select `run as administrator`. Currently creating the symbolic links in python requires administrator access. Now `cd` to your install directory using `/D` if you installed to a secondary drive, then run `python linker.py -h` to view the help and `python linker.py [source dir] [linked directory] [args]`. See below for an explination of the arguments.
 
+### Recommended Arguments
+
+For my use, I like these arguments.
+
+`-b -c -i -r -s --replays --schematics --server-resource-packs --shaders -o -p`
+
 ### Aruments
 
 - `source` - The directory that stores, for example, saves to be synced across other directories.
